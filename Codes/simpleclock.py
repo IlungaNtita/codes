@@ -25,5 +25,6 @@ while True:
 	
 	tl.write(times.zfill(2), font=('arial',40,'normal'),align=("center") )
 	tl.write(str(now.day)+" " + day +", "+ str(now.month) +", "+ str(now.year), align=("center"), font=("cambria", 8,"normal"))
+	tl.hideturtle()
 	time.sleep(1)
 	
