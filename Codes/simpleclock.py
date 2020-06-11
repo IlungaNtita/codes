@@ -2,7 +2,6 @@ import time
 from datetime import datetime
 import sys
 import os
-#import calender
 
 days = 0
 
